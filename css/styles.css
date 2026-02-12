@@ -115,6 +115,7 @@
   gap: 8px;
 }
 
+
 .nav-button img {
   width: 20px;   /* icon size adjust */
   height: 20px;
@@ -131,6 +132,12 @@
   font-weight: 500;
   border-radius: 4px;
 
+}
+
+.banner-button:hover {
+  background-color: #ffffff;
+  color: #30B868;
+  cursor: pointer;
 }
 
 .notes {
@@ -319,6 +326,13 @@ footer .social a {
   background-color: #ffffff;
   border-radius: 50%;
   text-decoration: none;
+  margin-right: 10px;
+  color: black
+}
+
+footer .social a:hover {
+  background-color: #28A745;
+  color: white;
 }
 
 footer .social p {
